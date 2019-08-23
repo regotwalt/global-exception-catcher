@@ -7,5 +7,16 @@
     </head>
     <body>
         <h1>Hello World</h1>
+        <button onclick="callBackend('happy')">Happy</button>
+        <button onclick="callBackend('throwable')">Throwable</button>
+        <button onclick="callBackend('error')">Error</button>
+        <button onclick="callBackend('exception')">Exception</button>
+        <button onclick="callBackend('runtimeException')">RuntimeException</button>
+
+        <script>
+            function callBackend(path) {
+                alert(path);
+            }
+        </script>
     </body>
 </html>
